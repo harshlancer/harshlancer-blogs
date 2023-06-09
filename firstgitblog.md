@@ -12,16 +12,20 @@ $('#myParagraph').text('Hello, jQuery!');
 ```
 #2.Event Handling
 jQuery simplifies event handling. You can easily attach event handlers to elements. Here's an example that alerts a message when a button with the ID "myButton" is clicked:
+```node
 $('#myButton').click(function() {
   alert('Button clicked!');
 });
-
+```
 #3.Animation
 jQuery provides animation capabilities for creating interactive and visually appealing effects. For instance, you can animate the movement of a div element with the ID "myDiv" to the right:
+```node
 $('#myDiv').animate({left: '+=100px'}, 'slow');
+```
 
 #4.Ajax Request
 jQuery simplifies making AJAX requests to retrieve data from a server without refreshing the whole page. Here's an example that fetches data from a server and displays it in a div with the ID "myData":
+```node
 $.ajax({
   url: 'data.php',
   method: 'GET',
@@ -29,8 +33,10 @@ $.ajax({
     $('#myData').html(response);
   }
 });
-
+```
 
 #5.Effects and Utilities
 jQuery offers various effects and utility functions to enhance your website. For example, you can fade out an element with the ID "myElement" slowly:
+```node
 $('#myElement').fadeOut('slow');
+```
